@@ -1,6 +1,5 @@
-import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
 
+import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
@@ -15,6 +14,11 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        tech: "border-transparent bg-guild-tech/20 text-guild-tech hover:bg-guild-tech/30",
+        creative: "border-transparent bg-guild-creative/20 text-guild-creative hover:bg-guild-creative/30",
+        leadership: "border-transparent bg-guild-leadership/20 text-guild-leadership hover:bg-guild-leadership/30",
+        analytics: "border-transparent bg-guild-analytics/20 text-guild-analytics hover:bg-guild-analytics/30",
+        marketing: "border-transparent bg-guild-marketing/20 text-guild-marketing hover:bg-guild-marketing/30",
       },
     },
     defaultVariants: {
