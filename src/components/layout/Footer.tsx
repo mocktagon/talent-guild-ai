@@ -41,11 +41,11 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-medium mb-4 text-gray-900">For Candidates</h3>
+            <h3 className="text-lg font-medium mb-4 text-gray-900">For You</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/signup?as=candidate" className="text-gray-600 hover:text-primary transition-colors">
-                  Join a Guild
+                <Link to="/signup" className="text-gray-600 hover:text-primary transition-colors">
+                  Join Now
                 </Link>
               </li>
               <li>

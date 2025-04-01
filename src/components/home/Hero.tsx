@@ -58,7 +58,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{animationDelay: '0.4s'}}>
               <Button size="xl" variant="gradient" className="group" asChild>
-                <Link to="/signup?as=candidate">
+                <Link to="/signup">
                   Join Now
                   <PlusCircle className="ml-2 h-5 w-5 transition-transform group-hover:rotate-90" />
                 </Link>

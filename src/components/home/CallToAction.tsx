@@ -17,7 +17,7 @@ const CallToAction = () => {
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
-                <Link to="/signup?as=candidate">
+                <Link to="/signup">
                   Join Now
                 </Link>
               </Button>
