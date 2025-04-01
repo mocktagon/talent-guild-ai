@@ -13,12 +13,12 @@ const CallToAction = () => {
               Ready to Join the Future of Professional Talent Networks?
             </h2>
             <p className="text-lg text-white/90">
-              Whether you're a talented professional looking to join a specialized guild or a company searching for pre-vetted candidates, Project Guild offers a seamless, AI-powered experience.
+              Join Project Guild and access our AI-powered platform that connects you with employers searching for your specific talents and skills.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
                 <Link to="/signup?as=candidate">
-                  Join as Candidate
+                  Join Now
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
@@ -41,7 +41,7 @@ const CallToAction = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-xl">Intelligent Matching</h3>
-                    <p className="text-white/80">AI-powered assessment and placement</p>
+                    <p className="text-white/80">Your AI-powered assessment and placement</p>
                   </div>
                 </div>
                 
@@ -53,7 +53,7 @@ const CallToAction = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-xl">Specialized Guilds</h3>
-                    <p className="text-white/80">Pre-vetted talent pools by specialty</p>
+                    <p className="text-white/80">Join talent pools matching your specialty</p>
                   </div>
                 </div>
                 
@@ -65,7 +65,7 @@ const CallToAction = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-xl">Faster Hiring</h3>
-                    <p className="text-white/80">Reduce time-to-hire by up to 60%</p>
+                    <p className="text-white/80">Get hired up to 60% faster</p>
                   </div>
                 </div>
               </div>
@@ -85,10 +85,10 @@ const CallToAction = () => {
                         +2k
                       </div>
                     </div>
-                    <span className="ml-2 text-sm">joined this month</span>
+                    <span className="ml-2 text-sm">professionals joined this month</span>
                   </div>
                   <div className="bg-white/20 text-white text-sm rounded-full px-3 py-1">
-                    Growing Fast
+                    Join Now
                   </div>
                 </div>
               </div>

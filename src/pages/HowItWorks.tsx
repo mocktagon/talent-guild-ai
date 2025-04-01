@@ -9,11 +9,11 @@ const HowItWorks = () => {
       <div className="bg-gradient-to-b from-blue-50 to-white py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <Badge variant="secondary" className="mb-4">Our Process</Badge>
-            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">How Project Guild Works</h1>
+            <Badge variant="secondary" className="mb-4">Your Journey</Badge>
+            <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">How Project Guild Works For You</h1>
             <p className="text-xl text-gray-600">
-              Our AI-powered platform revolutionizes talent assessment and matching, creating 
-              specialized guilds of pre-vetted professionals.
+              Our AI-powered platform revolutionizes your job search experience, placing you in 
+              specialized guilds to showcase your professional talents.
             </p>
           </div>
         </div>
@@ -24,9 +24,9 @@ const HowItWorks = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <Badge variant="secondary" className="mb-4">Step 1</Badge>
-              <h2 className="text-3xl font-heading font-bold mb-6">Comprehensive Candidate Registration</h2>
+              <h2 className="text-3xl font-heading font-bold mb-6">Create Your Comprehensive Profile</h2>
               <p className="text-gray-600 mb-6">
-                The journey begins with a detailed profile creation process. Candidates provide information about:
+                Begin your journey by creating your detailed profile. You'll provide information about:
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Professional experience and work history</span>
+                  <span>Your professional experience and work history</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -43,7 +43,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Technical skills and specialized capabilities</span>
+                  <span>Your technical skills and specialized capabilities</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -51,7 +51,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Educational background and certifications</span>
+                  <span>Your educational background and certifications</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -59,7 +59,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Personal interests and work preferences</span>
+                  <span>Your personal interests and work preferences</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -67,7 +67,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Portfolio samples and previous work</span>
+                  <span>Your portfolio samples and previous work</span>
                 </li>
               </ul>
             </div>
@@ -77,7 +77,7 @@ const HowItWorks = () => {
                   <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <UsersRound className="h-5 w-5" />
                   </div>
-                  <h3 className="text-lg font-medium ml-3">Candidate Profile</h3>
+                  <h3 className="text-lg font-medium ml-3">Your Profile</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
@@ -106,7 +106,7 @@ const HowItWorks = () => {
                     <div className="h-2 w-full bg-gray-200 rounded-full">
                       <div className="h-2 bg-primary rounded-full w-2/3"></div>
                     </div>
-                    <p className="text-xs text-right text-gray-500 mt-1">Profile 67% complete</p>
+                    <p className="text-xs text-right text-gray-500 mt-1">Your profile 67% complete</p>
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const HowItWorks = () => {
                   <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <BrainCircuit className="h-5 w-5" />
                   </div>
-                  <h3 className="text-lg font-medium ml-3">AI Interview</h3>
+                  <h3 className="text-lg font-medium ml-3">Your AI Interview</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="bg-gray-100 rounded-lg p-4 flex">
@@ -159,9 +159,9 @@ const HowItWorks = () => {
             
             <div className="order-1 md:order-2">
               <Badge variant="secondary" className="mb-4">Step 2</Badge>
-              <h2 className="text-3xl font-heading font-bold mb-6">AI-Powered Assessment</h2>
+              <h2 className="text-3xl font-heading font-bold mb-6">Complete Your AI-Powered Assessment</h2>
               <p className="text-gray-600 mb-6">
-                Our advanced AI interviewer conducts a comprehensive assessment through a 
+                Our advanced AI interviewer conducts your comprehensive assessment through a 
                 conversational interface, evaluating:
               </p>
               <ul className="space-y-3">
@@ -171,7 +171,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Technical proficiency through problem-solving scenarios</span>
+                  <span>Your technical proficiency through problem-solving scenarios</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -179,7 +179,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Personality traits and emotional intelligence indicators</span>
+                  <span>Your personality traits and emotional intelligence indicators</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -187,7 +187,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Communication style and collaborative tendencies</span>
+                  <span>Your communication style and collaborative tendencies</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -195,7 +195,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Problem-solving approaches and critical thinking</span>
+                  <span>Your problem-solving approaches and critical thinking</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -203,7 +203,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Cultural fit indicators and work environment preferences</span>
+                  <span>Your cultural fit indicators and work environment preferences</span>
                 </li>
               </ul>
             </div>
@@ -216,10 +216,10 @@ const HowItWorks = () => {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <Badge variant="secondary" className="mb-4">Step 3</Badge>
-              <h2 className="text-3xl font-heading font-bold mb-6">Guild Placement & Profile Enhancement</h2>
+              <h2 className="text-3xl font-heading font-bold mb-6">Receive Your Guild Placement</h2>
               <p className="text-gray-600 mb-6">
-                Based on the comprehensive assessment results, candidates are placed into specialized 
-                guilds that match their skills, expertise, and work style.
+                Based on your comprehensive assessment results, you'll be placed into specialized 
+                guilds that match your skills, expertise, and work style.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -228,7 +228,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Placement in primary and secondary guild communities</span>
+                  <span>Join primary and secondary guild communities</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -236,7 +236,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Digital skill badges and endorsements based on assessment</span>
+                  <span>Earn digital skill badges and endorsements based on your assessment</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -244,7 +244,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Detailed profile highlighting verified strengths and capabilities</span>
+                  <span>Showcase your detailed profile highlighting verified strengths</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -252,7 +252,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Personalized growth recommendations for skill development</span>
+                  <span>Get personalized growth recommendations for skill development</span>
                 </li>
               </ul>
             </div>
@@ -262,7 +262,7 @@ const HowItWorks = () => {
                   <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <Gauge className="h-5 w-5" />
                   </div>
-                  <h3 className="text-lg font-medium ml-3">Guild Placement Results</h3>
+                  <h3 className="text-lg font-medium ml-3">Your Guild Placement</h3>
                 </div>
                 <div className="space-y-6">
                   <div>
@@ -274,7 +274,7 @@ const HowItWorks = () => {
                       <div className="h-3 bg-guild-tech rounded-full" style={{width: '92%'}}></div>
                     </div>
                     <div className="flex justify-between text-xs mt-1">
-                      <span>Match Score</span>
+                      <span>Your Match Score</span>
                       <span className="font-medium">92%</span>
                     </div>
                   </div>
@@ -288,13 +288,13 @@ const HowItWorks = () => {
                       <div className="h-3 bg-guild-analytics rounded-full" style={{width: '76%'}}></div>
                     </div>
                     <div className="flex justify-between text-xs mt-1">
-                      <span>Match Score</span>
+                      <span>Your Match Score</span>
                       <span className="font-medium">76%</span>
                     </div>
                   </div>
                   
                   <div className="pt-2 border-t border-gray-100">
-                    <h4 className="text-sm font-medium mb-2">Verified Skills</h4>
+                    <h4 className="text-sm font-medium mb-2">Your Verified Skills</h4>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 mr-1">
@@ -334,24 +334,24 @@ const HowItWorks = () => {
                   <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <Globe className="h-5 w-5" />
                   </div>
-                  <h3 className="text-lg font-medium ml-3">Recruiter Dashboard</h3>
+                  <h3 className="text-lg font-medium ml-3">Get Discovered</h3>
                 </div>
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-blue-50 rounded-lg p-4 text-center">
                       <p className="text-sm text-gray-600 mb-1">Tech Guild</p>
                       <p className="text-2xl font-bold text-guild-tech">542</p>
-                      <p className="text-xs text-gray-500">Pre-vetted members</p>
+                      <p className="text-xs text-gray-500">Guild members</p>
                     </div>
                     <div className="bg-red-50 rounded-lg p-4 text-center">
                       <p className="text-sm text-gray-600 mb-1">Creative Guild</p>
                       <p className="text-2xl font-bold text-guild-creative">384</p>
-                      <p className="text-xs text-gray-500">Pre-vetted members</p>
+                      <p className="text-xs text-gray-500">Guild members</p>
                     </div>
                   </div>
                   
                   <div className="border rounded-lg p-4">
-                    <h4 className="text-sm font-medium mb-3">Search Filters</h4>
+                    <h4 className="text-sm font-medium mb-3">Company Search Filters</h4>
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded flex items-center">
                         Tech Guild
@@ -378,16 +378,16 @@ const HowItWorks = () => {
                     <div className="p-3 flex items-center">
                       <div className="w-8 h-8 rounded-full bg-gray-200 mr-3 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-medium text-sm">Alex Morgan</h5>
-                        <p className="text-xs text-gray-600">Full-Stack Developer • 92% Match</p>
+                        <h5 className="font-medium text-sm">You matched!</h5>
+                        <p className="text-xs text-gray-600">CompanyA is looking for your skills • 92% Match</p>
                       </div>
                       <button className="ml-auto text-primary text-sm">View</button>
                     </div>
                     <div className="p-3 flex items-center">
                       <div className="w-8 h-8 rounded-full bg-gray-200 mr-3 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-medium text-sm">Jamie Lee</h5>
-                        <p className="text-xs text-gray-600">Frontend Developer • 88% Match</p>
+                        <h5 className="font-medium text-sm">You matched!</h5>
+                        <p className="text-xs text-gray-600">CompanyB is looking for your skills • 88% Match</p>
                       </div>
                       <button className="ml-auto text-primary text-sm">View</button>
                     </div>
@@ -400,10 +400,10 @@ const HowItWorks = () => {
             
             <div className="order-1 md:order-2">
               <Badge variant="secondary" className="mb-4">Step 4</Badge>
-              <h2 className="text-3xl font-heading font-bold mb-6">Recruiter Discovery & Connection</h2>
+              <h2 className="text-3xl font-heading font-bold mb-6">Get Discovered by Employers</h2>
               <p className="text-gray-600 mb-6">
-                Recruiters and hiring managers gain access to pre-vetted talent pools organized by guild, 
-                allowing for efficient and targeted candidate discovery.
+                Recruiters and hiring managers can now find you in our pre-vetted talent pools, 
+                allowing for efficient and targeted matching with your skills.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -412,7 +412,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Browse guild members filtered by verified skills and experience</span>
+                  <span>Your profile appears to companies searching for your verified skills</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -420,7 +420,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Access detailed assessment results and skill verifications</span>
+                  <span>Companies can view your assessment results and skill verifications</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -428,7 +428,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>View compatibility scores for potential team and culture fit</span>
+                  <span>Companies see your compatibility scores for team and culture fit</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -436,7 +436,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Initiate connections with promising candidates directly</span>
+                  <span>Receive direct connection requests from interested employers</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3 mt-0.5">
@@ -444,7 +444,7 @@ const HowItWorks = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                     </svg>
                   </div>
-                  <span>Track engagement and hiring activities through the dashboard</span>
+                  <span>Track your profile views and interest through your dashboard</span>
                 </li>
               </ul>
             </div>
@@ -456,18 +456,18 @@ const HowItWorks = () => {
         <div className="container text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl font-heading font-bold mb-6">
-              Ready to Experience Project Guild?
+              Ready to Join Project Guild?
             </h2>
             <p className="text-white/90 text-lg mb-8">
-              Join our platform today and discover how AI-powered talent matching 
-              can transform your hiring or job search experience.
+              Sign up today and discover how our AI-powered talent matching 
+              can transform your job search experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/signup?as=candidate" 
                 className="bg-white text-primary hover:bg-white/90 px-8 py-3 rounded-md font-medium transition-colors"
               >
-                Join as Candidate
+                Join Now
               </a>
               <a 
                 href="/signup?as=recruiter" 
