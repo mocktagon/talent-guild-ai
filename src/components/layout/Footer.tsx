@@ -8,10 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-md bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white font-bold">
-                PG
-              </div>
-              <span className="text-xl font-heading font-bold">Project Guild</span>
+              <img 
+                src="/lovable-uploads/b604b428-253e-4dd1-bd95-9ac53049c321.png" 
+                alt="Project Guild Logo" 
+                className="h-10 brightness-0 invert"
+              />
             </Link>
             <p className="text-gray-400 mb-4">
               AI-powered talent matching platform organizing professionals into specialized guilds.

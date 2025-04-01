@@ -11,10 +11,11 @@ const Header = () => {
     <header className="w-full bg-white shadow-sm py-4 sticky top-0 z-50">
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <div className="w-10 h-10 rounded-md bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white font-bold">
-            PG
-          </div>
-          <span className="text-xl font-heading font-bold">Project Guild</span>
+          <img 
+            src="/lovable-uploads/b604b428-253e-4dd1-bd95-9ac53049c321.png" 
+            alt="Project Guild Logo" 
+            className="h-10"
+          />
         </Link>
 
         {/* Desktop navigation */}

@@ -20,9 +20,16 @@ const Hero = () => {
               Next-Generation Talent Platform
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight text-gray-900 leading-tight animate-slide-in">
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI-Powered</span> Talent Matching for the Future of Work
-            </h1>
+            <div className="space-y-3 animate-slide-in">
+              <img 
+                src="/lovable-uploads/b604b428-253e-4dd1-bd95-9ac53049c321.png" 
+                alt="Project Guild Logo" 
+                className="h-32 mb-4"
+              />
+              <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight text-gray-900 leading-tight">
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI-Powered</span> Talent Matching
+              </h1>
+            </div>
             
             <p className="text-lg text-gray-700 animate-fade-in" style={{animationDelay: '0.2s'}}>
               Project Guild uses artificial intelligence to pre-vet candidates and organize them into specialized 
