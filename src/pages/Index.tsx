@@ -5,6 +5,7 @@ import GuildShowcase from "@/components/home/GuildShowcase";
 import HowItWorks from "@/components/home/HowItWorks";
 import Features from "@/components/home/Features";
 import Testimonials from "@/components/home/Testimonials";
+import CallToAction from "@/components/home/CallToAction";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <HowItWorks />
       <Features />
       <Testimonials />
+      <CallToAction />
     </Layout>
   );
 };
