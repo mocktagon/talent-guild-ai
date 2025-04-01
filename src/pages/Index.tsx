@@ -10,12 +10,14 @@ import CallToAction from "@/components/home/CallToAction";
 const Index = () => {
   return (
     <Layout>
-      <Hero />
-      <GuildShowcase />
-      <HowItWorks />
-      <Features />
-      <Testimonials />
-      <CallToAction />
+      <div className="min-h-screen">
+        <Hero />
+        <GuildShowcase />
+        <HowItWorks />
+        <Features />
+        <Testimonials />
+        <CallToAction />
+      </div>
     </Layout>
   );
 };
