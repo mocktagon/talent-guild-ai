@@ -17,16 +17,16 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 max-w-xl">
             <div className="inline-block px-4 py-1.5 bg-primary/10 backdrop-blur-sm rounded-full text-primary font-medium text-sm animate-fade-in">
-              Next-Generation Talent Platform
+              Elevate Your Career with AI
             </div>
             
             <h1 className="text-4xl md:text-5xl font-heading font-bold tracking-tight text-gray-900 leading-tight animate-slide-in">
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI-Powered</span> Talent Matching for the Future of Work
+              Join a <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Professional Guild</span> and Showcase Your Talents
             </h1>
             
             <p className="text-lg text-gray-700 animate-fade-in" style={{animationDelay: '0.2s'}}>
-              Project Guild uses artificial intelligence to pre-vet candidates and organize them into specialized 
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-medium"> Guilds</span>, making talent discovery more efficient and meaningful.
+              Get matched with opportunities that align with your skills and aspirations. Our AI assessment process organizes you into specialized 
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-medium"> Guilds</span>, connecting you with employers looking for your exact expertise.
             </p>
             
             <div className="space-y-4 animate-fade-in" style={{animationDelay: '0.3s'}}>
@@ -36,7 +36,7 @@ const Hero = () => {
                     <Check className="text-secondary w-4 h-4" />
                   </div>
                 </div>
-                <span className="ml-3 text-gray-700">Comprehensive assessment of technical skills, soft skills, and work preferences</span>
+                <span className="ml-3 text-gray-700">Complete an AI-powered skills assessment tailored to your field</span>
               </div>
               <div className="flex items-start">
                 <div className="mt-1 p-0.5 bg-gradient-to-r from-primary to-secondary rounded-full">
@@ -44,7 +44,7 @@ const Hero = () => {
                     <Check className="text-secondary w-4 h-4" />
                   </div>
                 </div>
-                <span className="ml-3 text-gray-700">Smart categorization into relevant industry and skill-based guilds</span>
+                <span className="ml-3 text-gray-700">Join a guild of like-minded professionals in your industry</span>
               </div>
               <div className="flex items-start">
                 <div className="mt-1 p-0.5 bg-gradient-to-r from-primary to-secondary rounded-full">
@@ -52,7 +52,7 @@ const Hero = () => {
                     <Check className="text-secondary w-4 h-4" />
                   </div>
                 </div>
-                <span className="ml-3 text-gray-700">Access pre-vetted talent pools with verified capabilities</span>
+                <span className="ml-3 text-gray-700">Get discovered by top companies looking for validated talent</span>
               </div>
             </div>
             
@@ -80,7 +80,7 @@ const Hero = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
                   </svg>
                 </div>
-                <h2 className="text-xl font-semibold ml-3 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI Interviewer</h2>
+                <h2 className="text-xl font-semibold ml-3 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AI Skills Assessment</h2>
               </div>
               
               <div className="space-y-4">
@@ -88,7 +88,7 @@ const Hero = () => {
                   <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white mr-3 shrink-0">
                     AI
                   </div>
-                  <p className="text-gray-700">Tell me about a challenging project you led and how you ensured its success.</p>
+                  <p className="text-gray-700">What programming languages are you most proficient in?</p>
                 </div>
                 
                 <div className="bg-primary/5 backdrop-blur-sm rounded-2xl p-4 flex animate-fade-in" style={{animationDelay: '0.7s'}}>
@@ -97,14 +97,14 @@ const Hero = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                     </svg>
                   </div>
-                  <p className="text-gray-700">I led the redesign of our company's customer portal, coordinating across three teams...</p>
+                  <p className="text-gray-700">I'm most proficient in JavaScript, TypeScript, and Python. I've been working with React for 4 years...</p>
                 </div>
                 
                 <div className="bg-gray-100/80 backdrop-blur-sm rounded-2xl p-4 flex animate-fade-in" style={{animationDelay: '0.8s'}}>
                   <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white mr-3 shrink-0">
                     AI
                   </div>
-                  <p className="text-gray-700">How do you approach conflicts within your team?</p>
+                  <p className="text-gray-700">Describe a challenging project you completed recently.</p>
                 </div>
                 
                 <div className="flex items-center justify-between mt-4 animate-fade-in" style={{animationDelay: '0.9s'}}>
